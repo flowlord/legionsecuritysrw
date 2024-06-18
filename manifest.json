@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Compare URLs",
+    "name": "LEGION SECURITY SRW",
     "version": "1.0",
-    "description": "Compare the current URL with a list of URLs from a JSON file",
+    "description": "Extension chrome qui avertie l'utilisateur si un site web est frauduleux ou qui a des avis négatifs sur Trustpilot.",
     "permissions": [
       "activeTab",
       "scripting"

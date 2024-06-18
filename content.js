@@ -21,8 +21,8 @@
       overlay.id = 'fraud-warning-overlay';
       overlay.innerHTML = `
         <div id="fraud-warning-popup">
-          <p>Attention, ce site est potentiellement frauduleux !</p>
-          <p>Les avis sont <span style="text-decoration: underline;">extrêment</span> négative</p>
+          <p style="color:white;">Attention, ce site est potentiellement frauduleux !</p>
+          <p style="color:white;">Les avis sont <span style="text-decoration: underline;">extrêment</span> négative</p>
           <button id="safe-button">revenir en lieu sûr</button>
           <button id="trustpilot-button">lire les avis trustpilot</button>
         </div>
