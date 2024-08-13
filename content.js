@@ -22,9 +22,9 @@
       overlay.innerHTML = `
         <div id="fraud-warning-popup">
           <p style="color:white;">Attention, ce site est potentiellement frauduleux !</p>
-          <p style="color:white;">Les avis sont <span style="text-decoration: underline;">extrêment</span> négative</p>
-          <button id="safe-button">revenir en lieu sûr</button>
-          <button id="trustpilot-button">lire les avis trustpilot</button>
+          <p style="color:white;">Les avis sont <span style="text-decoration: underline;">extrêmement</span> négatifs</p>
+          <button id="safe-button">Revenir en lieu sûr</button>
+          <button id="trustpilot-button">Lire les avis</button>
         </div>
       `;
       document.body.appendChild(overlay);
@@ -33,6 +33,11 @@
       const style = document.createElement('style');
       style.textContent = `
         #fraud-warning-overlay {
+          background: rgba(255, 255, 255, 0.2);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.9px);
+          -webkit-backdrop-filter: blur(4.9px);
           font-size: 25px;
           font-family: Arial;
           position: fixed;

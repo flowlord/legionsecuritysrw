@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "LEGION SECURITY SRW",
     "version": "1.0",
-    "description": "Extension chrome qui avertie l'utilisateur si un site web est frauduleux ou qui a des avis négatifs sur Trustpilot.",
+    "description": "Extension chrome communautaire qui avertie l'utilisateur si un site web est frauduleux ou qui présente des avis négatifs sur Trustpilot.",
     "permissions": [
       "activeTab",
       "scripting"
